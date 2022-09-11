@@ -1,0 +1,112 @@
+{
+  "customers": [
+    {
+      "id": "8baa6dea-cc70-4748-9b27-b174e70e4b66",
+      "name": "Lezlie Stuther",
+      "address": "19045 Lawn Court"
+    },
+    {
+      "id": "d2584a20-7490-499a-83be-d7cea4a0e260",
+      "name": "Alma Prantoni",
+      "address": "9 Trailsway Road"
+    },
+    {
+      "id": "9a1c9545-2612-43c3-a3a3-ea7cb5c5e9d1",
+      "name": "Edna Owenson",
+      "address": "8 Redwing Lane"
+    },
+    {
+      "id": "c4d3848d-1eba-47b6-90ce-cbc1228158e5",
+      "name": "Keane Shuttleworth",
+      "address": "172 Lyons Street"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "vendor": "acme",
+      "date": "03/03/2017",
+      "customer": "8baa6dea-cc70-4748-9b27-b174e70e4b66",
+      "order": [
+        {
+          "item": "hat",
+          "quantity": 14,
+          "price": 8,
+          "revenue": 112
+        },
+        {
+          "item": "cake",
+          "quantity": 9,
+          "price": 3,
+          "revenue": 27
+        },
+        {
+          "item": "ice",
+          "quantity": 10,
+          "price": 5,
+          "revenue": 50
+        },
+        {
+          "item": "candy",
+          "quantity": 6,
+          "price": 8,
+          "revenue": 48
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "vendor": "acme",
+      "date": "08/23/2017",
+      "customer": "d2584a20-7490-499a-83be-d7cea4a0e260",
+      "order": [
+        {
+          "item": "cake",
+          "quantity": 8,
+          "price": 1,
+          "revenue": 8
+        },
+        {
+          "item": "punch",
+          "quantity": 19,
+          "price": 7,
+          "revenue": 133
+        },
+        {
+          "item": "bouncy house",
+          "quantity": 4,
+          "price": 9,
+          "revenue": 36
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "vendor": "fred's party supplies",
+      "date": "02/04/2017",
+      "customer": "9a1c9545-2612-43c3-a3a3-ea7cb5c5e9d1",
+      "order": [
+        {
+          "item": "clown",
+          "quantity": 17,
+          "price": 9,
+          "revenue": 153
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "vendor": "acme",
+      "date": "12/11/2017",
+      "customer": "c4d3848d-1eba-47b6-90ce-cbc1228158e5",
+      "order": [
+        {
+          "item": "bouncy house",
+          "quantity": 1,
+          "price": 4,
+          "revenue": 4
+        }
+      ]
+    }
+  ]
+}
