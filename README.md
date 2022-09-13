@@ -9,12 +9,12 @@ docker build . --tag=palo-alto-networks-code-test:latest
 
 ### How to run
 ```shell
-docker run -v "$(pwd):/app/" --rm palo-alto-code-test:latest /app/transform.py
+docker run -v "$(pwd):/app/" --rm palo-alto--networks-code-test:latest /app/transform.py
 ```
 
 ### Run test
 ```shell
-docker run --rm palo-alto-code-test:latest pytest
+docker run --rm palo-alto-code-networks-test:latest pytest
 ```
 
 ## Without Docker
@@ -33,6 +33,7 @@ If input/output files from different location:
 ### Run test
 ```shell
 pip install -r requirements.txt
+export PYTHONPATH=$PYTHONPATH:$(pwd)
 pytest
 ```
 
